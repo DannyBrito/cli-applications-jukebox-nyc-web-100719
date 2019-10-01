@@ -23,6 +23,6 @@ def list(songs)
   track_n = 0
   songs.each{|ind_song|
   track_n +=1
-  puts "#{track_n}. ind_song"
+  puts "#{track_n}. #{ind_song}"
   }
 end  
