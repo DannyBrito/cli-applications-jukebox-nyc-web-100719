@@ -29,7 +29,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   song_input = gets.strip
   if song_input.length == 1
-    song_input.to_i 
+    song_input = song_input.to_i 
     puts "Playing #{songs[song_input-1]}"if song_input >=1 && song_input <=9
     return
   else
