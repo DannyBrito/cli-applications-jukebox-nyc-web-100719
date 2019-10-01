@@ -28,5 +28,11 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_input = gets.strip
-  song_input.
+  if song_input.length == 1
+    song_input.to_i 
+    puts "Playing #{songs[song_input-1}"if song_input >=1 &&song_input <=9
+  else
+    songs.each{|ind_song|
+      puts"Playing #{ind_song}"ind_song == song_input
+    }
 end 
