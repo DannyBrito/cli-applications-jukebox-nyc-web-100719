@@ -48,8 +48,10 @@ def exit_jukebox
 end
 
 def run 
-  puts "Please enter a command:"
-  input_command = gets.strip
-  
+  while true do
+    puts "Please enter a command:"
+    input_command = gets.strip
+      case
+    end
 end
 
