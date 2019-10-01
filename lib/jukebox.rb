@@ -20,9 +20,7 @@ def help
 end
 
 def list(songs)
-  track_n = 0
-  songs.each{|ind_song|
-  track_n +=1
-  puts "#{track_n}. #{ind_song}"
+  songs.each_with_index{|ind_song, index|
+  puts "#{index + 1}. #{ind_song}"
   }
 end  
