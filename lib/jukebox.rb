@@ -51,7 +51,8 @@ def run
   while true do
     puts "Please enter a command:"
     input_command = gets.strip
-      case
-    end
+      case input_command
+      
+      end
 end
 
