@@ -61,7 +61,7 @@ def run
       when "exit"
         exit_jukebox
         break
-      default:
       end
+   end
 end
 
