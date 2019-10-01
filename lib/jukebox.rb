@@ -35,7 +35,6 @@ def play(songs)
   else
     songs.each{|ind_song|
       puts"Playing #{ind_song}"if ind_song == song_input
-      return
     }
   end
     puts "Invalid input, please try again"
