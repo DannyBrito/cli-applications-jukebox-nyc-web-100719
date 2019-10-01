@@ -37,5 +37,5 @@ def play(songs)
       puts"Playing #{ind_song}"if ind_song == song_input
       return
     }
-    
+    puts "Invalid input, please try again"
 end 
